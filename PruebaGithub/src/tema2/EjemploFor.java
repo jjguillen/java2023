@@ -28,7 +28,7 @@ public class EjemploFor {
 		}
 		
 		//4. Genera un número aleatorio entre el 1 y el 100. Muestra todos los números entre el 1 y el 100 menos ese aleatorio.		
-		int numero = (int) ((Math.random()*100) + 1);
+		int numero =  (int) ((Math.random()*100) + 1);
 		System.out.println(numero);
 		
 		for(int i=1; i<=100; i++) {
