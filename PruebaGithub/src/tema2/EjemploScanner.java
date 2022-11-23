@@ -16,6 +16,7 @@ public class EjemploScanner {
 		}	
 		
 		System.out.println(numero);
+		System.out.println("Prueba git");
 
 	}
 
