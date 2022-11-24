@@ -4,9 +4,15 @@ import java.util.Scanner;
 
 public class EjemploCalculadora {
 
+	
+	public static double sumar(double n1, double n2) {
+		return n1 + n2;
+	}
+	
 	/**
 	 * Función que lee un double de teclado
 	 * @param sc
+	 * @return 
 	 * @return
 	 */
 	public static double leerTeclado() {
@@ -53,13 +59,13 @@ public class EjemploCalculadora {
 				//System.out.println("Opción incorrecta (1,2,3,4)");
 				opcion = 0;
 			}
-			
+
 			//HARÍA ACCIONES EN FUNCIÓN DE LA OPCIÓN ELEGIDA
 			switch (opcion) {
 				case 1:
 					numero1 = leerTeclado();
 					numero2 = leerTeclado();
-					resultado = numero1 + numero2;
+					resultado = sumar(numero1, numero2);
 					System.out.println("Resultado= " + resultado);
 					break;
 	
