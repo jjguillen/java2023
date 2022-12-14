@@ -56,5 +56,8 @@ public class Diccionario {
 		} while (opcion != 3);
 
 	}
+	
+	
+	
 
 }
